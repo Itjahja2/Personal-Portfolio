@@ -99,3 +99,44 @@ body {
     background-color: #7a3fe0;
     transform: translateY(-2px);
 }
+
+/* Project Section */
+.project-section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-size: 48px;
+}
+
+.project-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.project-image {
+    flex: 1;
+}
+
+    .project-image img {
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+    }
+
+.project-description {
+    flex: 1;
+}
+
+.section-underline {
+    width: 700px;
+    height: 4px;
+    background-color: #9b5cff;
+    border-radius: 2px;
+    margin: 10px auto 30px;
+}
