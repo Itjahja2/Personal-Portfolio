@@ -4,7 +4,7 @@ body {
     margin: 0;
     background-color: #0d0d0d;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Playfair Display", serif;
 }
 
 /* About Section */
@@ -38,7 +38,7 @@ body {
 /* Right Side */
 
 .about-text {
-    max-width: 550px;
+    max-width: 100%;
 }
 
 .about-text h1 {
@@ -99,10 +99,10 @@ body {
 
 /* Project Section */
 .project-section {
-    max-width: 1000px;
+    max-width: 90%;
     margin: 60px auto;
     padding: 0 20px;
-    font-size: 48px;
+    font-size: 25px;
 }
 
 .project-title {
@@ -113,18 +113,21 @@ body {
 .project-content {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .project-image {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-    .project-image img {
-        width: 100%;
-        border-radius: 10px;
-        display: block;
-    }
+   
+.project-image img {
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+}
 
 .project-description {
     flex: 1;
