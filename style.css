@@ -49,11 +49,8 @@ body {
 .underline {
     width: 90px;
     height: 4px;
-
-    background: #9b5cff;
-
+    background: #01018f;
     border-radius: 50px;
-
     margin-bottom: 35px;
 }
 
@@ -86,7 +83,7 @@ body {
     display: inline-block;
     margin-top: 25px;
     padding: 14px 32px;
-    background-color: #9b5cff;
+    background-color: #01018f;
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
@@ -95,10 +92,10 @@ body {
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-.resume-btn:hover {
-    background-color: #7a3fe0;
-    transform: translateY(-2px);
-}
+    .resume-btn:hover {
+        background-color: #0202de;
+        transform: translateY(-2px);
+    }
 
 /* Project Section */
 .project-section {
@@ -136,7 +133,7 @@ body {
 .section-underline {
     width: 700px;
     height: 4px;
-    background-color: #9b5cff;
+    background-color: #01018f;
     border-radius: 2px;
     margin: 10px auto 30px;
 }
