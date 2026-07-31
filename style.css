@@ -7,9 +7,9 @@ body {
     font-family: "Playfair Display", serif;
 }
 
-/* About Section */
+/* Intro Section */
 
-.about-section {
+.intro-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,11 +37,11 @@ body {
 
 /* Right Side */
 
-.about-text {
+.intro-text {
     max-width: 100%;
 }
 
-.about-text h1 {
+.intro-text h1 {
     font-size: 64px;
     margin-bottom: 10px;
 }
@@ -54,11 +54,62 @@ body {
     margin-bottom: 35px;
 }
 
-.about-text p {
+.intro-text p {
     font-size: 26px;
     color: #b9b9b9;
 
     line-height: 1.7;
+}
+
+/* More About Me Section */
+.more-about-section {
+    max-width: 80%;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.more-about-title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.more-about-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.more-about-text {
+    flex: 2;
+    font-size: 26px;
+    line-height: 1.6;
+}
+
+    .more-about-text h3,
+    .skills-list h3 {
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+.skills-list {
+    flex: 1;
+}
+
+.skills-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-badge {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: #ddd;
+    font-size: 20px;
+    white-space: nowrap;
 }
 
 /* Resume Section */
@@ -71,12 +122,13 @@ body {
 }
 
 .resume-preview {
-    width: 100%;
-    max-width: 700px;
-    height: 800px;
+    width: 90vw;
+    max-width: 1000px;
+    height: 900px;
     border: 2px solid #3a3a3a;
     border-radius: 10px;
 }
+
 
 /* Resume Button */
 .resume-btn {
