@@ -165,7 +165,7 @@ body {
 /* Project Section */
 .project-section {
     max-width: 90%;
-    margin: 200px auto;
+    margin: 200px auto 300px auto;
     padding: 0 20px;
     font-size: 25px;
 }
