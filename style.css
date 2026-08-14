@@ -215,3 +215,126 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 8px rgba(79, 93, 255, 0.4);
 }
+
+
+/* Mobile View */
+
+@media (max-width: 768px) {
+
+    /* Intro */
+    .intro-section {
+        flex-direction: column;
+        gap: 35px;
+        width: 100%;
+        min-height: auto;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .profile-image img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .intro-text {
+        width: 100%;
+        max-width: 100%;
+    }
+
+        .intro-text h1 {
+            font-size: 42px;
+            line-height: 1.1;
+            margin-bottom: 15px;
+        }
+
+    .underline {
+        margin: 0 auto 25px;
+    }
+
+    .intro-text p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+
+    /* Section titles */
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-underline {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    /* Projects */
+    .project-section {
+        max-width: 100%;
+        margin: 100px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+    .project-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-image {
+        width: 75%;
+    }
+
+        .project-image img {
+            width: 100%;
+            max-width: 500px;
+        }
+
+    .project-description {
+        width: 100%;
+    }
+
+    .status-badge {
+        font-size: 10px;
+        padding: 8px 16px;
+    }
+
+    .status-dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* More About Me */
+    .more-about-section {
+        max-width: 100%;
+        margin: 60px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .more-about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .more-about-text {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .skill-badge {
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+
+    /* Resume */
+    .resume-section {
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    .resume-preview {
+        width: 100%;
+        height: 600px;
+    }
+}
