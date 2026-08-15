@@ -147,6 +147,7 @@ body {
 .resume-btn {
     display: inline-block;
     margin-top: 25px;
+    margin-bottom: 25px;
     padding: 14px 32px;
     background-color: #01018f;
     color: #ffffff;
@@ -191,6 +192,7 @@ body {
 
 .project-description {
     flex: 1;
+    line-height: 1.6
 }
 
 .status-badge {
